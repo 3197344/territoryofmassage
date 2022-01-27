@@ -454,8 +454,8 @@ input {
 /* -----------------Наша команда----------------- */
 .our-command {
   background-color: var(--first-bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 .command {
   display: flex;
@@ -472,9 +472,21 @@ input {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.command-location {
+  margin: 0 auto;
+margin-bottom: 50px;
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  /* text-transform: uppercase; */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
 .command-section {
   margin: 0 auto;
+  margin-bottom: 50px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -551,16 +563,16 @@ input {
 /* --------------Постоянные клиенты-------------------- */
 .our-clients {
   background-color: var(--second-bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .clients-item {
   margin-bottom: 50px;
   font-weight: 700;
-  color: var(--title-text-color);
+  color: var(--second-accent-color);
   font-weight: 700;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
