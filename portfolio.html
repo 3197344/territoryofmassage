@@ -20,45 +20,42 @@
     <div class="container header-container">
       <nav class="header-navigation">
         <a href="./index.html" class="header-logo list">
-          <span class="logo">Web</span>Studio</a>
-
+          <img src="./img/logo-en.png" width="200" alt="logo"></a>
+  
         <ul class="header-nav list">
           <li class="items">
-            <a href="./index.html" class="header-link linkt">Студия</a>
+            <a href="./index.html" class="header-link link current">про нас</a>
           </li>
           <li class="items">
-            <a href="./portfolio.html" class="header-link link current">Портфолио</a>
+            <a href="./index.html" class="header-link link">новини</a>
           </li>
           <li class="items">
-            <a href="" class="header-link link">Контакты</a>
+            <a href="./portfolio.html" class="header-link link">магазин</a>
           </li>
+          <li class="items">
+            <a href="./portfolio.html" class="header-link link">галерея</a>
+          </li>
+          <li class="items">
+            <a href="" class="header-link link">контакти</a>
+          </li>
+          <li class="items input-header">
+            <input type="search" id="site-search" name="q" placeholder="" ; aria-label="Search through site content">
+            <button class="btn-header "></button>
+          </li>
+          <li class="items input-header">
+            <button type="submit" class="btn-personal " data-header-modal-open></button>
+          </li>
+          <li class="items input-header">
+            <img src="./img/icon/shop.svg" alt="shop">
+          </li>
+  
         </ul>
       </nav>
-
-      <ul class="auth-nav list">
-        <li class="contact-items">
-
-          <a href="mailto:info@devstudio.com" class="header-address link">
-            <svg class="nav-icon" width="16" height="12">
-              <use href="./img/icons.svg#icon-envelope"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-
-        </li>
-        <li class="contact-items">
-
-          <a href="" class="header-address link">
-            <svg class="nav-icon" width="10" height="16">
-              <use href="./img/icons.svg#icon-smartphone"></use>
-            </svg>
-            +38 096 111 11 11</a>
-
-        </li>
-      </ul>
+  
+  
     </div>
   </header>
-
+  
   <main>
     <!-- Портфолио -->
     <!-- Наши работы -->
@@ -239,82 +236,81 @@
     </section>
   </main>
 
-  <!-- Футер (подвал) -->
-  <footer class="footer-section">
-    <div class="footer-container">
-      <div class="footer-list">
-        <div class="footer-set">
-          <a href="./index.html" class="footer-logo">
-            <span class="logo">Web</span>Studio
-          </a>
+      <!-- Футер (подвал) -->
+      
+      <footer class="footer-section">
+        <div class="footer-container">
+          <div class="footer-box">
+            <div class="footer-set">
+              <a href="./index.html" class="footer-logo">
+                <img src="./img/logo.svg" width="200" alt="logo"></a>
+              <a href="mailto:info@devstudio.com" class="footer-address-mail link">mail@territoryofmassage.com.ua</a>
+            </div>
+      
+            <!-- <div class="footer-item">
+                  <address class="about-address">
+                    г. Черкассы, пр-т Леси Украинки, 26
+                    г. Харьков, ул. Пермская, 6
+                  </address> -->
+            <!-- <ul class="footer-nav list">
+                    <li class="footer-link">
+                      <a
+                        href="mailto:info@devstudio.com"
+                        class="footer-address mail link"
+                        >info@devstudio.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="footer-address link">+38 096 111 11 11</a>
+                    </li>
+                  </ul> -->
+            <!-- </div> -->
+          </div>
+      
+          <div class="footer-box">
+            <p class="footer-text">Приєднуйтеся</p>
+            <ul class="footer-command-box">
+              <li class="footer-command-iconbox">
+                <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
+                  class="footer-command-link">
+                  <svg class="footer-command-icon">
+                    <use href="./img/icons.svg#icon-instagram2"></use>
+                  </svg>
+                </a>
+              </li>
+      
+              <li class="footer-command-iconbox">
+                <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
+                  <svg class="footer-command-icon">
+                    <use href="./img/icons.svg#icon-facebook1"></use>
+                  </svg>
+                </a>
+              </li>
+      
+              <li class="footer-command-iconbox">
+                <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
+      5xHYjgTut0Z9hZKUI" class="footer-command-link">
+                  <svg class="footer-command-icon">
+                    <use href="./img/icons.svg#icon-whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="footer-box-second">
+            <p class="footer-text">Пiдпишiться на розсилку акцiйних пропозицiй</p>
+            <div class="form-field">
+              <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail" />
+              <label for="mail" class="footer-form-label"></label>
+      
+              <button type="submit" class="button-footer" data-modal-open>
+                Подписаться
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="footer-item">
-          <address class="about-address">
-            г. Киев, пр-т Леси Украинки, 26
-          </address>
-          <ul class="footer-nav list">
-            <li class="footer-link">
-              <a href="mailto:info@devstudio.com" class="footer-address mail link">info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="" class="footer-address link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-  
-      <div class="footer-box">
-        <p class="footer-text">Присоединяйтесь</p>
-        <ul class="footer-command-box">
-          <li class="footer-command-iconbox">
-            <a href="" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-instagram2"></use>
-              </svg>
-            </a>
-          </li>
-  
-          <li class="footer-command-iconbox">
-            <a href="" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-twitter1"></use>
-              </svg>
-            </a>
-          </li>
-  
-          <li class="footer-command-iconbox">
-            <a href="" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-facebook1"></use>
-              </svg>
-            </a>
-          </li>
-  
-          <li class="footer-command-iconbox">
-            <a href="" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-linkedin1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-  
-      <div class="footer-box-second">
-        <p class="footer-text">Подпишитесь на рассылку</p>
-        <div class="form-field">
-  
-          <input class="footer-input" type="email" name="mail" id="mail" />
-          <label for="mail" class="footer-form-label">E-mail</label>
-  
-          <button type="submit" class="button-footer" data-modal-open>
-            Подписаться
-          </button>
-  
-        </div>
-      </div>
-    </div>
-  </footer>
+      </footer>
 </body>
 
 </html>
