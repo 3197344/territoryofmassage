@@ -1,123 +1,142 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
+
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="device-width, initial-scale=1.0" />
-  <title>contacts</title>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TERRITORY OF MASSAGE STUDIO</title>
+  <link rel="shortcut icon" sizes="16x16" href="./img/logo-gold.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&family=Redressed&family=Work+Sans:wght@400;600;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-
-  <link rel="stylesheet" href="./css/styles.css" />
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
-  <!-- site-nav -->
-  <header class="header-box">
+  <!-- header -->
+
+  <header class="header ">
     <div class="container header-container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo list">
-          <img src="./img/logo-en.png" width="200" alt="logo"></a>
+      <a href="./index.html" class="logo list"></a>
 
-        <ul class="header-nav list">
-          <li class="items">
-            <a href="./index.html" class="header-link link">про нас</a>
-          </li>
-          <li class="items">
-            <a href="./index.html" class="header-link link">новини</a>
-          </li>
-          <li class="items">
-            <a href="./portfolio.html" class="header-link link">магазин</a>
-          </li>
-          <li class="items">
-            <a href="./portfolio.html" class="header-link link">галерея</a>
-          </li>
-          <li class="items">
-            <a href="" class="header-link link current">контакти</a>
-          </li>
-          <li class="items input-header">
-            <input type="search" id="site-search" name="q" placeholder="" ; aria-label="Search through site content">
-            <button class="btn-header "></button>
-          </li>
-          <li class="items input-header">
-            <button type="submit" class="btn-personal " data-header-modal-open></button>
-          </li>
-          <li class="items input-header">
-            <img src="./img/icon/shop.svg" alt="shop">
-          </li>
 
-        </ul>
-      </nav>
+      <!-- button open-menu -->
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="30" height="30" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
 
+      <!-- header menu -->
+      <ul class="header-nav list header-box">
+        <li class="items">
+          <a href="./index.html" class="header-link link current">про нас</a>
+        </li>
+
+        <li class="items">
+          <a href="./index.html" class="header-link link current">новини</a>
+        </li>
+
+        <li class="items">
+          <a href="" class="header-link link current">магазин</a>
+        </li>
+
+        <li class="items">
+          <a href="./gallery.html" class="header-link link current">галерея</a>
+        </li>
+
+        <li class="items">
+          <a href="./contacts.html" class="header-link link current">контакти</a>
+        </li>
+
+        <li class="items input-header">
+          <input type="search" id="site-search" name="q" placeholder="" ; aria-label="Search through site content">
+          <button class="btn-header "></button>
+        </li>
+
+        <li class="items">
+          <button type="button" class="btn-personal" data-header-modal-open></button>
+        </li>
+
+        <li class="items ">
+          <button type="button" class="btn-shop"></button>
+        </li>
+
+      </ul>
 
     </div>
   </header>
 
   <main>
     <!-- contact -->
-        <section class="our-work">
+    <section class="our-work-contact">
 
-      <h2 class="section-title visually-hidden">Чем мы занимаемся</h2>
+      
       <div class="container">
-        <ul class="work list">
+        <h2 class="section-title visually-hidden">Чем мы занимаемся</h2>
+      
+        <div class="work-contact section-contact">
+        
+        <img class="work-img" 
+        src="./img/Desktop/che1.jpg" alt="на Дашкевича"/>
+        <a class="work-map"
+          href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.979034,36.1863719,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
+          <!-- <img src="./img/Desktop/map3.jpg" alt="на Дашкевича"  /> -->
+        </a>
+        <div class="work-img-text">
+          <span class="contact-adress-text">
+          чекаємо на вас кожного дня з 9 до 19 години! <br>
+          <div class="our-adress">
+          м.Черкаси, вул. Дашкевича, 4 <br>
+          098 422 27 31, 063 765 33 00 </div>
+          </span>
+        
 
+        <ul class="footer-command-box">
 
-          <li class="work-img">
-            <img src="./img/Desktop/che1.jpg" alt="на Дашкевича" width="420" />
-            <p class="work-img-text"> чекаємо на вас кожного дня з 9 до 19 години! </p>
-          </li>
-
-          <li class="work-contact">
-            <p class="contact-text">м.Черкаси, <br> вул. Дашкевича, 4 </p>
-            <p class="contact-text"> 098 422 27 31, <br> 063 765 33 00 </p>
-            <div>
-                <ul class="footer-command-box">
-                  <li class=" work-iconbox ">
-                    <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
-                      class="footer-command-link">
-                      <svg class="footer-command-icon">
-                        <use href="./img/icons.svg#icon-instagram2"></use>
-                      </svg>
-                    </a>
-                  </li>
-
-                  <li class=" work-iconbox ">
-                    <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
-                      <svg class="footer-command-icon">
-                        <use href="./img/icons.svg#icon-facebook1"></use>
-                      </svg>
-                    </a>
-                  </li>
-
-                  <li class=" work-iconbox ">
-                    <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
-        5xHYjgTut0Z9hZKUI" class="footer-command-link">
-                      <svg class="footer-command-icon">
-                        <use href="./img/icons.svg#icon-whatsapp"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-
-            </div>
-          </li>
-
-          <li class="work-img">
-            <a
-              href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.979034,36.1863719,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
-              <img src="./img/Desktop/map3.jpg" alt="на Дашкевича" width="398" />
+          <li class=" work-iconbox ">
+            <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link" 
+            class="footer-command-link">
+              <svg class="footer-command-icon">
+                <use href="./img/icons.svg#icon-instagram2"></use>
+              </svg>
             </a>
           </li>
-
+        
+          <li class=" work-iconbox ">
+            <a href="https://www.facebook.com/TerritoryOfMassageCK/" 
+            class="footer-command-link">
+              <svg class="footer-command-icon">
+                <use href="./img/icons.svg#icon-facebook1"></use>
+              </svg>
+            </a>
+          </li>
+        
+          <li class=" work-iconbox ">
+            <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
+                5xHYjgTut0Z9hZKUI" 
+                class="footer-command-link">
+              <svg class="footer-command-icon">
+                <use href="./img/icons.svg#icon-whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          
         </ul>
+        </div>
       </div>
 
-<!-- contact2 -->
+      <!-- contact2 -->
 
-            <!-- <div class="container">
+      <!-- <div class="container">
               <ul class="work list">
             
             
@@ -172,200 +191,322 @@
             </div>
  -->
 
-<!-- contact 3-->
+      <!-- contact 3-->
+
+<div class="work-contact">
+  <img class="work-img"
+  src="./img/Desktop/harkiv.jpg" alt="на Пермськой"  />
+  <a class="work-map-harkiv"
+    href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.9790374,36.1863666,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
+    </a>
+<div class="work-img-text">
+  <span class="contact-adress-text">
+    чекаємо на вас кожного дня з 9 до 19 години! <br>
+    <div class="our-adress">
+      м.Харкiв, вул.Пермська, 6 м.Холодна Гора<br>
+      066-227-39-00 </div>
+  </span>
+  
+  <ul class="footer-command-box">
+
+    <li class=" work-iconbox ">
+      <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-instagram2"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li class=" work-iconbox ">
+      <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-facebook1"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li class=" work-iconbox ">
+      <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
+                5xHYjgTut0Z9hZKUI" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-whatsapp"></use>
+        </svg>
+      </a>
+    </li>
+
+  </ul>
+</div>
+</div>
+
+      <!-- contact 4-->
+
+<div class="work-contact">
+  <img class="work-img" 
+  src="./img/Desktop/kre.jpg" alt="на Дашкевича" />
+  <a class="work-map-kre"
+    href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.979034,36.1863719,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
+    <!-- <img src="./img/Desktop/map1.jpg" alt="на Шевченко" width="398" /> -->
+  </a>
+<div class="work-img-text">
+  <span class="contact-adress-text">
+    чекаємо на вас кожного дня з 9 до 19 години! <br>
+    <div class="our-adress">
+      м.Кременчук, вул. ? <br>
+      098 422 27 31, 063 765 33 00 </div>
+  </span>
+
+  <ul class="footer-command-box">
+
+    <li class=" work-iconbox ">
+      <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-instagram2"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li class=" work-iconbox ">
+      <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-facebook1"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li class=" work-iconbox ">
+      <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
+                5xHYjgTut0Z9hZKUI" class="footer-command-link">
+        <svg class="footer-command-icon">
+          <use href="./img/icons.svg#icon-whatsapp"></use>
+        </svg>
+      </a>
+    </li>
+
+  </ul>
+
+</div>
 
 
-            <div class="container">
-              <ul class="work list">
-            
-            
-                <li class="work-img">
-                  <img src="./img/Desktop/harkiv.jpg" alt="на Пермськой" width="420" />
-                  <p class="work-img-text"> чекаємо на вас кожного дня з 9 до 19 години! </p>
-                </li>
-            
-                <li class="work-contact">
-                  <p class="contact-text">м.Харкiв, <br> вул.Пермська, 6 <br> м.Холодна Гора </p>
-                  <p class="contact-text">  066-227-39-00 </p>
-                  <div>
-                    <ul class="footer-command-box">
-                      <li class=" work-iconbox ">
-                        <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
-                          class="footer-command-link">
-                          <svg class="footer-command-icon">
-                            <use href="./img/icons.svg#icon-instagram2"></use>
-                          </svg>
-                        </a>
-                      </li>
-            
-                      <li class=" work-iconbox ">
-                        <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
-                          <svg class="footer-command-icon">
-                            <use href="./img/icons.svg#icon-facebook1"></use>
-                          </svg>
-                        </a>
-                      </li>
-            
-                      <li class=" work-iconbox ">
-                        <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
-                                5xHYjgTut0Z9hZKUI" class="footer-command-link">
-                          <svg class="footer-command-icon">
-                            <use href="./img/icons.svg#icon-whatsapp"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-            
-                  </div>
-                </li>
-            
-                <li class="work-img">
-                  <a
-                    href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.9790374,36.1863666,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
-                    <img src="./img/Desktop/map1.jpg" alt="на Пермськой" width="398" />
-                  </a>
-                </li>
-            
-              </ul>
-            </div>
-
-<!-- contact 4-->
-
-                        <div class="container">
-                          <ul class="work list">
-                        
-                        
-                            <li class="work-img">
-                              <img src="./img/Desktop/kre.jpg" alt="на Дашкевича" width="420" />
-                              <p class="work-img-text"> чекаємо на вас кожного дня з 9 до 19 години! </p>
-                            </li>
-                        
-                            <li class="work-contact">
-                              <p class="contact-text">м.Кременчук, <br> вул. ??? </p>
-                              <p class="contact-text"> 098 422 27 31, <br> 063 765 33 00 </p>
-                              <div>
-                                <ul class="footer-command-box">
-                                  <li class=" work-iconbox ">
-                                    <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
-                                      class="footer-command-link">
-                                      <svg class="footer-command-icon">
-                                        <use href="./img/icons.svg#icon-instagram2"></use>
-                                      </svg>
-                                    </a>
-                                  </li>
-                        
-                                  <li class=" work-iconbox ">
-                                    <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
-                                      <svg class="footer-command-icon">
-                                        <use href="./img/icons.svg#icon-facebook1"></use>
-                                      </svg>
-                                    </a>
-                                  </li>
-                        
-                                  <li class=" work-iconbox ">
-                                    <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
-                                            5xHYjgTut0Z9hZKUI" class="footer-command-link">
-                                      <svg class="footer-command-icon">
-                                        <use href="./img/icons.svg#icon-whatsapp"></use>
-                                      </svg>
-                                    </a>
-                                  </li>
-                                </ul>
-                        
-                              </div>
-                            </li>
-                        
-                            <li class="work-img">
-                              <a
-                                href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F,+6,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.979034,36.1863719,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a04b4ec2dfa7:0x48a4c89352da1132!8m2!3d49.979034!4d36.1885606">
-                                <img src="./img/Desktop/map1.jpg" alt="на Шевченко" width="398" />
-                              </a>
-                            </li>
-                        
-                          </ul>
-                        </div>
-
+</div>
     </section>
 
-    
+
 
   </main>
 
   <!-- Футер (подвал) -->
-
+  
   <footer class="footer-section">
-    <div class="footer-container">
-      <div class="footer-box">
-        <div class="footer-set">
-          <a href="./index.html" class="footer-logo">
-            <img src="./img/logo.svg" width="200" alt="logo"></a>
+    <div class="container">
+  
+      <div class="footer-box-div">
+  
+  
+        <div class="footer-box footer-nav ">
+          <a href="./index.html" class="footer-logo"></a>
           <a href="mailto:info@devstudio.com" class="footer-address-mail link">mail@territoryofmassage.com.ua</a>
         </div>
-
-        <!-- <div class="footer-item">
-                  <address class="about-address">
-                    г. Черкассы, пр-т Леси Украинки, 26
-                    г. Харьков, ул. Пермская, 6
-                  </address> -->
-        <!-- <ul class="footer-nav list">
-                    <li class="footer-link">
-                      <a
-                        href="mailto:info@devstudio.com"
-                        class="footer-address mail link"
-                        >info@devstudio.com</a
-                      >
-                    </li>
-                    <li>
-                      <a href="" class="footer-address link">+38 096 111 11 11</a>
-                    </li>
-                  </ul> -->
-        <!-- </div> -->
-      </div>
-
-      <div class="footer-box">
-        <p class="footer-text">Приєднуйтеся</p>
-        <ul class="footer-command-box">
-          <li class="footer-command-iconbox">
-            <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
-              class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-instagram2"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="footer-command-iconbox">
-            <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-facebook1"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="footer-command-iconbox">
-            <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
-      5xHYjgTut0Z9hZKUI" class="footer-command-link">
-              <svg class="footer-command-icon">
-                <use href="./img/icons.svg#icon-whatsapp"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-box-second">
-        <p class="footer-text">Пiдпишiться на розсилку акцiйних пропозицiй</p>
-        <div class="form-field">
-          <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail" />
-          <label for="mail" class="footer-form-label"></label>
-
-          <button type="submit" class="button-footer" data-modal-open>
-            Пiдписатися
-          </button>
+  
+        <div class="footer-box">
+          <p class="footer-text">Приєднуйтеся</p>
+          <ul class="footer-command-box">
+            <li class="footer-command-iconbox">
+              <a href="https://instagram.com/territory_of_massage_cherkassy?utm_medium=copy_link"
+                class="footer-command-link">
+                <svg class="footer-command-icon">
+                  <use href="./img/icons.svg#icon-instagram2"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li class="footer-command-iconbox">
+              <a href="https://www.facebook.com/TerritoryOfMassageCK/" class="footer-command-link">
+                <svg class="footer-command-icon">
+                  <use href="./img/icons.svg#icon-facebook1"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li class="footer-command-iconbox">
+              <a href="https://invite.viber.com/?g2=AQAVYwiMALzThUmAd19eaK36Nh3%2BVWY6cvFNHoiuKCkqWDB
+  5xHYjgTut0Z9hZKUI" class="footer-command-link">
+                <svg class="footer-command-icon">
+                  <use href="./img/icons.svg#icon-whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="footer-box">
+          <p class="footer-text">Пiдпишiться на розсилку акцiйних пропозицiй</p>
+  
+          <div class="form-field">
+            <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail" />
+            <label for="mail" class="footer-form-label"></label>
+  
+            <button type="submit" class="submit-button-footer" data-modal-open>
+              Пiдписатися
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </footer>
-</body>
-
-</html>
+  
+  
+  
+  <!-- -----------------modal 2------------- -->
+  
+  <!-- <div class="backdrops is-hidden header-modal">
+        <div class="modal-header ">
+          <p class="modal-text">регiстрацiя</p>
+          <form class="modal-box">
+            <span class="modal-field">
+              <label for="name" class="modal-form-label">ПIБ</label>
+              <input class="form-input" type="text" name="name" id="name" />
+              <svg class="form-input-icon">
+                <use href="./img/icons.svg#icon-person"></use>
+              </svg>
+            </span>
+  
+            <span class="modal-field">
+              <label for="tel" class="modal-form-label">Телефон</label>
+              <input class="form-input" type="tel" name="tel" id="tel" />
+              <svg class="form-input-icon">
+                <use href="./img/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+  
+            <span class="modal-field">
+              <label for="email" class="modal-form-label">Пошта</label>
+              <input class="form-input" type="email" name="email" id="email" />
+              <svg class="form-input-icon">
+                <use href="./img/icons.svg#icon-email"></use>
+              </svg>
+            </span>
+  
+            <span class="modal-field">
+          <label for="comment" class="modal-form-label">Коментарiй</label>
+          <textarea class="comment" name="comment" id="comment" placeholder="Введiть текст"></textarea>
+        </span> -->
+  <!-- </form>
+  
+          <span class="modal-item">
+            <input type="checkbox" id="policy" class="modal-checkbox visually-hidden" />
+            <label for="policy" class="label-text">
+              <span class="input-wrapper">
+                <svg class="checkbox-icon" width="16" height="15">
+                  <use href="./img/icons.svg#icon-Vector-send"></use>
+                </svg>
+              </span>
+  
+              Я погоджуюсь з <a href=""> умовами договору</a> i дозволяю обробляти мої
+              персональнi данi.
+            </label>
+          </span>
+  
+          <button type="submit" class="modal-button">Вiдправити</button>
+  
+          <button type="button" class="close-btn data-header-modal-close">
+            <svg class="modal-icon">
+              <use href="./img/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+        </div>
+  
+  
+  
+      </div> -->
+  
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+  
+    <ul class="mobile-menu">
+      <li><a class="header-text mobile-menu-link" href="./index.html">про нас</a></li>
+      <li><a class="header-text mobile-menu-link" href="#features">новини</a></li>
+      <li><a class="header-text mobile-menu-link" href="#team">магазин</a></li>
+      <li><a class="header-text mobile-menu-link" href="./portfolio.html">галерея</a></li>
+      <li><a class="header-text mobile-menu-link" href="./contacts.html">контакти</a></li>
+      <li><a class="header-text mobile-menu-link" href="">Записатися</a></li>
+      <li><a class="header-text mobile-menu-link" href="">Мій кабінет</a></li>
+    </ul>
+  </div>
+  
+  <!-- -----------------modal 1------------- -->
+  
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+  
+      <p class="modal-text">залиште свої данi та ми з вами зв'яжимося</p>
+      <form class="modal-box">
+        <span class="modal-field">
+          <label for="name" class="modal-form-label">Iм'я</label>
+          <input class="form-input" type="text" name="name" id="name" />
+          <svg class="form-input-icon">
+            <use href="./img/icons.svg#icon-person"></use>
+          </svg>
+        </span>
+  
+        <span class="modal-field">
+          <label for="tel" class="modal-form-label">Телефон</label>
+          <input class="form-input" type="tel" name="tel" id="tel" />
+          <svg class="form-input-icon">
+            <use href="./img/icons.svg#icon-phone"></use>
+          </svg>
+        </span>
+  
+        <span class="modal-field">
+          <label for="email" class="modal-form-label">Пошта</label>
+          <input class="form-input" type="email" name="email" id="email" />
+          <svg class="form-input-icon">
+            <use href="./img/icons.svg#icon-email"></use>
+          </svg>
+        </span>
+  
+        <span class="modal-field">
+          <label for="comment" class="modal-form-label">Коментарiй</label>
+          <textarea class="comment" name="comment" id="comment" placeholder="Введiть текст"></textarea>
+        </span>
+      </form>
+  
+      <span class="modal-item">
+        <input type="checkbox" id="policy" class="modal-checkbox visually-hidden" />
+        <label for="policy" class="label-text">
+          <span class="input-wrapper">
+            <svg class="checkbox-icon" width="16" height="15">
+              <use href="./img/icons.svg#icon-Vector-send"></use>
+            </svg>
+          </span>
+  
+          Я погоджуюсь з <a href=""> умовами договору</a> i дозволяю обробляти мої
+          персональнi данi.
+        </label>
+      </span>
+  
+      <button type="submit" class="modal-button">Вiдправити</button>
+  
+      <button type="button" class="close-btn" data-modal-close>
+        <svg class="modal-icon">
+          <use href="./img/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+    </div>
+  
+  
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/carousel.js"></script>
+    <!-- <script src="./js/modalcopy.js"></script> -->
+    </body>
+  
+    </html>

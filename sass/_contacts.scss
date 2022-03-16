@@ -1,0 +1,158 @@
+    .our-work-contact{
+    background-color: var(--second-bg-color);
+    }
+
+    .work-contact {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    
+    @media screen and (min-width: 768px){
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 768px
+    
+    }
+    @media screen and (min-width: 1200px){
+    
+    }
+    }
+
+    .section-contact {
+    padding-top: 90px;
+    @media screen and (min-width: 768px){
+
+    }
+    @media screen and (min-width: 1200px){
+        
+    }
+    }
+
+    .contact-text {
+    margin-bottom: 15px;
+    color: var(--second-accent-color-);
+    @media screen and (min-width: 768px){
+
+    }
+    @media screen and (min-width: 1200px){
+        
+    }
+    }
+
+    .work-img {
+    // position: relative;
+    width: 100%;
+    margin: 0 auto;
+    
+    @media screen and (min-width: 768px){
+    width: 60%;
+    height: auto;
+    }
+    @media screen and (min-width: 1200px){
+    
+    }
+    }
+.work-map{
+    width: 100%;
+    height: 330px;
+    margin: 0 auto;
+    background-image: url(../img/Desktop/map3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (min-width: 768px){
+    width: 39%;
+    height: inherit;
+    margin-left: 5px;
+    }
+    @media screen and (min-width: 1200px){
+    
+    }
+    
+}
+.work-map-harkiv{
+    width: 100%;
+    height: 330px;
+    margin: 0 auto;
+    background-image: url(../img/Desktop/map1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (min-width: 768px){
+    width: 39%;
+    height: inherit;
+    margin-left: 5px;
+    }
+    @media screen and (min-width: 1200px){
+    
+    }
+    
+}   
+
+.work-map-kre{
+    width: 100%;
+    height: 330px;
+    margin: 0 auto;
+    
+    background-image: url(../img/Desktop/map3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (min-width: 768px){
+    width: 39%;
+    height: inherit;
+    margin-left: 5px;
+    }
+    @media screen and (min-width: 1200px){
+    
+    }
+}
+
+
+    .work-img-text {
+    width: 100%;
+    height: 160px;
+    
+    border-radius: 3px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    box-shadow: 2px 4px 8px 2px rgba(74, 74, 75, 0.3);
+    @media screen and (min-width: 768px){
+    height: 70px;
+    justify-content: space-between;
+    }
+    @media screen and (min-width: 1200px){
+        
+    }
+    }
+    
+.contact-adress-text{
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--accent-bg-color); 
+}
+.our-adress{
+    font-size: 17px;
+    color: var(--second-accent-color);
+}
+    .work-iconbox {
+    border-radius: 50px;
+    margin-right: 15px;
+    background-color: rgba(151, 6, 86, 0.116);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 768px){
+
+    }
+    @media screen and (min-width: 1200px){
+        
+    }
+    }
