@@ -1,0 +1,128 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #aa80cc;
+  --second-accent-color: #5c0248;
+
+  --primary-bg-color: #e5e5e5;
+  --accent-bg-color: #2f303a;
+  --first-bg-color: #f5f4fa;
+  --second-bg-color: #ffffff;
+  
+--second-color: #DDF4FF;
+--text: #000000;
+--white: #FFFFFF; 
+--grey: #bbbaba;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+button{
+  padding: 0;
+}
+li, a, .list {
+    text-decoration: none;
+    list-style: none;
+}
+// img {
+//   display: block;
+//   min-width: 100%;
+//   height: auto;
+// }
+
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 320;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+
+    @media screen and (min-width: 480px) {
+      width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 1600px;
+    }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+// ----------------------------
+
+
+.title{
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1;
+    text-align: center;
+    color: var(--text);
+    
+    @media screen and (min-width:768px){
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 1.3;
+    }
+    @media screen and (min-width:1200px) {
+    font-size: 35px;
+    line-height: 1.5;
+    
+    }
+}
+.text{
+    margin-top: 15px;
+
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--text);
+
+    @media screen and (min-width:768px){
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 1.3;
+    }
+    @media screen and (min-width:1200px) {
+    font-size: 35px;
+    line-height: 1.5;
+    
+    }
+}
