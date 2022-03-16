@@ -1286,17 +1286,26 @@ input {
 }
 
 .modal {
-  width: 530px;
+  width: 90%;
   min-height: 580px;
-  background: #ffffff;
+  background: var(--white);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
-  top: 90px;
+  top: 50px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 10px;
   color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 530px;
+    min-height: 580px;
+    top: 90px;
+    padding: 40px;
+  }
 }
 
 .modal-header {
@@ -1314,6 +1323,7 @@ input {
 }
 
 .modal-text {
+  width: 87%;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 16px;
@@ -1324,9 +1334,14 @@ input {
   color: var(--second-accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .modal-text {
+    width: 100%;
+  }
+}
+
 /* --------Лейбл----инпуты------- */
 .modal-field {
-  width: 450px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1335,15 +1350,24 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* outline: 1px solid tomato; */
+}
+
+@media screen and (min-width: 768px) {
+  .modal-field {
+    width: 450px;
+  }
 }
 
 .modal-box .modal-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
+.modal-box {
+  width: 100%;
+}
+
 .form-input {
-  margin: 0;
+  width: 100%;
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 42px;
