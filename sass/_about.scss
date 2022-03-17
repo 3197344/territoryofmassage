@@ -1,18 +1,84 @@
 .about{
     width: 100%;
-    height: 1000px;
-    padding-top: 130px;
-
+    
+    padding-top: 100px;
+    padding-bottom: 20px;
+@media screen and (min-width:768px){
+display: flex;
+padding-top: 80px;
+}
+@media screen and (min-width:1200px){
+display: block;
+}
 }
 
 .about-section{
     width: 100%;
-    height: 1000px;
-    margin: 0 auto;
-    margin-top: 80px;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 2;
-    text-align: center;
+    margin-top: 20px;
     
+@media screen and (min-width:1200px){
+display: block;
+}
+}
+.about-text{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    // text-indent: 1.5em;
+    text-indent: 20px;
+    text-align: justify;
+    letter-spacing: normal;
+@media screen and (min-width:768px){
+    font-size: 15px;
+}
+
+}
+.card-img:not(:last-child){
+    @media screen and (min-width:1200px){
+    margin-right: 10px;
+}
+
+}
+
+.card-img {
+padding: 10px;
+
+width: 95%;
+height: 200px;
+border-radius: 3px;
+margin: 0 auto;
+margin-bottom: 15px;
+margin-top: 15px;
+background: var(--white);
+box-shadow: 2px 4px 8px 2px rgba(74, 74, 75, 0.3);
+@media screen and (min-width:768px){
+    
+    width: 300px;
+}
+
+}
+
+.about-products-img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+@media screen and (min-width:768px){
+    
+}
+@media screen and (min-width:1200px){
+
+}
+}
+.card-section{
+    display: none;
+@media screen and (min-width:768px){
+    display: block;
+    margin-right: 35px;
+}
+@media screen and (min-width:1200px){
+display: flex;
+
+margin-right: 0;
+}
 }
